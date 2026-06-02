@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MythosSoftware.EventSource.Application</id>
+    <version>1.0.1</version>
+    <authors>MythosSoftware.EventSource.Application</authors>
+    <description>Package Description</description>
+    <repository type="git" url="https://github.com/mythos-software/MythosSoftware.EventSource.Application" commit="bba0a12094531e92cf124b4b258e253313db3f53" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="MythosSoftware.EventSource.Domain" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/dragutindumic/Documents/ms/EventSource/MythosSoftware.EventSource/MythosSoftware.EventSource.Application/bin/Release/net10.0/MythosSoftware.EventSource.Application.dll" target="lib/net10.0/MythosSoftware.EventSource.Application.dll" />
+  </files>
+</package>
