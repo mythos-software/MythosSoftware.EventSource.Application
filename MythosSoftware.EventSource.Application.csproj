@@ -12,4 +12,10 @@
       <PackageReference Include="MythosSoftware.EventSource.Domain" Version="1.0.0" />
     </ItemGroup>
 
+    <PropertyGroup>
+        <PackageId>MythosSoftware.EventSource.Application</PackageId>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/mythos-software/MythosSoftware.EventSource.Application</RepositoryUrl>
+    </PropertyGroup>
+
 </Project>
