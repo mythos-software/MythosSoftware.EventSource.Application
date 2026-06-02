@@ -25,6 +25,9 @@ jobs:
       - name: Build
         run: dotnet build MythosSoftware.EventSource.Application.csproj --configuration Release
 
+      - name: Clean package output
+        run: rm -rf out
+
       - name: Build solution and generate NuGet package
         run: |
           BASE_VERSION=$(grep -oPm1 "(?<=<Version>)[^<]+" MythosSoftware.EventSource.Application.csproj)
